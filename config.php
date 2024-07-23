@@ -1,4 +1,7 @@
 <?php
+
+define("BASE_PATH",__DIR__);
+
 $servername = "localhost"; // or your database server IP
 $username = "root"; // your MySQL username
 $password = ""; // your MySQL password

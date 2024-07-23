@@ -1,6 +1,6 @@
 <?php
 // Include the database configuration file
-include 'config.php';
+include realpath(__DIR__ . '/../config.php');
 
 // Start session to manage user login state
 session_start();
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Password is correct, set session variables
             $_SESSION['email'] = $email;
             $_SESSION['loggedin'] = true;
-            header("Location: dash.php"); // Redirect to the PHP dashboard
+            header("Location: admin/index.php"); // Redirect to the PHP dashboard
             exit;
         } else {
             echo "Invalid password.";

@@ -11,14 +11,14 @@ body {
     min-height: 100vh;
 }
 
-.navbar {
+/* .navbar {
     background-color: #fffff;
     padding: 15px 0;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
-}
+} */
 
 .nav-container {
     display: flex;

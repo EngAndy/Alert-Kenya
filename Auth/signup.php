@@ -1,6 +1,6 @@
 <?php
 // Include the database configuration file
-include 'config.php';
+include 'important/config.php';
 
 // Check if the form was submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
