@@ -147,47 +147,10 @@ include realpath(__DIR__ . '/../common/header.php');
         <div class="section__content section__content--p30">
           <div class="container-fluid">
             <div class="header-wrap">
-              <form class="form-header" action="" method="POST">
-                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
-                <button class="au-btn--submit" type="submit">
-                  <i class="zmdi zmdi-search"></i>
-                </button>
-              </form>
-              <div class="header-button">
-                <div class="noti-wrap">
-                  <div class="noti__item js-item-menu">
-                    <i class="zmdi zmdi-comment-more"></i>
-                    <span class="quantity">1</span>
-                    <div class="mess-dropdown js-dropdown">
-                      <div class="mess__title">
-                        <p>You have 2 news message</p>
-                      </div>
-                      <div class="mess__item">
-                        <div class="image img-cir img-40">
-                          <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
-                        </div>
-                        <div class="content">
-                          <h6>Michelle Moreno</h6>
-                          <p>Have sent a photo</p>
-                          <span class="time">3 min ago</span>
-                        </div>
-                      </div>
-                      <div class="mess__item">
-                        <div class="image img-cir img-40">
-                          <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
-                        </div>
-                        <div class="content">
-                          <h6>Diane Myers</h6>
-                          <p>You are now connected on message</p>
-                          <span class="time">Yesterday</span>
-                        </div>
-                      </div>
-                      <div class="mess__footer">
-                        <a href="#">View all messages</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="noti__item js-item-menu">
+              <form class="form-header"action="" method="POST"></form>
+            </div>
+
+            <div class="noti__item js-item-menu">
                     <i class="zmdi zmdi-email"></i>
                     <span class="quantity">1</span>
                     <div class="email-dropdown js-dropdown">
@@ -265,11 +228,13 @@ include realpath(__DIR__ . '/../common/header.php');
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="account-wrap">
+
+
+
+            <div class="account-wrap">
                   <div class="account-item clearfix js-item-menu">
                     <div class="image">
-                      <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                      <img src="#" alt="John Doe" />
                     </div>
                     <div class="content">
                       <a class="js-acc-btn" href="#">john doe</a>
@@ -309,336 +274,20 @@ include realpath(__DIR__ . '/../common/header.php');
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
           </div>
         </div>
+        
       </header>
+      </header>
+
       <!-- END HEADER DESKTOP-->
+       
+      <!-- MAIN CONTENT -->
 
-      
-      <!-- MAIN CONTENT-->
       <div class="main-content">
-        <div class="section__content section__content--p30">
-          <div class="container-fluid">
-            <h5 class="heading-title">Fixed Grid</h5>
-            <div class="row">
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-            </div>
 
-            <div class="row">
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-              <div class="col">
-                <section class="card">
-                  <div class="card-body text-secondary">.col</div>
-                </section>
-              </div>
-            </div>
-
-            <h5 class="heading-title">Desktop Grid</h5>
-            <div class="row">
-              <div class="col col-lg-12">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-12</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-6">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-6</div>
-                </section>
-              </div>
-              <div class="col-lg-6 ">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-6</div>
-                </section>
-              </div>
-            </div>
-
-
-            <div class="row">
-              <div class="col-lg-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-4</div>
-                </section>
-              </div>
-              <div class="col-lg-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-4</div>
-                </section>
-              </div>
-              <div class="col-lg-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-4</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-3</div>
-                </section>
-              </div>
-              <div class="col-lg-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-3</div>
-                </section>
-              </div>
-              <div class="col-lg-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-3</div>
-                </section>
-              </div>
-              <div class="col-lg-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-3</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-              <div class="col-lg-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-2</div>
-                </section>
-              </div>
-            </div>
-
-
-            <h4 class="heading-title">Mobile, Tablet, and Desktop</h4>
-
-            <div class="row">
-              <div class="col-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-2</div>
-                </section>
-              </div>
-              <div class="col-2">
-                <section class="card">
-                  <div class="card-body text-secondary">col-2</div>
-                </section>
-              </div>
-              <div class="col-lg-8">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-8</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-sm-3</div>
-                </section>
-              </div>
-              <div class="col-sm-3">
-                <section class="card">
-                  <div class="card-body text-secondary">col-sm-3</div>
-                </section>
-              </div>
-              <div class="col-lg-6">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-6</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-md-4</div>
-                </section>
-              </div>
-              <div class="col-md-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-md-4</div>
-                </section>
-              </div>
-              <div class="col-lg-4">
-                <section class="card">
-                  <div class="card-body text-secondary">col-lg-4</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                <section class="card">
-                  <div class="card-body text-secondary">col-sm-6</div>
-                </section>
-              </div>
-              <div class="col-sm-6">
-                <section class="card">
-                  <div class="card-body text-secondary">col-sm-6</div>
-                </section>
-              </div>
-            </div>
-
-
-            <h5 class="heading-title">Offset Grid</h5>
-
-            <div class="row">
-              <div class="col-md-6 offset-md-6 col-sm-6 ml-auto">
-                <section class="card">
-                  <div class="card-body text-secondary">col-md-6 offset-md-6 col-sm-6 </div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 offset-md-3 mr-auto ml-auto">
-                <section class="card">
-                  <div class="card-body text-secondary">.col-md-6 .offset-md-3</div>
-                </section>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <section class="card">
-                  <div class="card-body text-secondary"> .col-md-4 </div>
-                </section>
-              </div>
-              <div class="col-md-4 ml-auto">
-                <section class="card">
-                  <div class="card-body text-secondary">.col-md-4 .ml-auto</div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-    <!-- END PAGE CONTAINER-->
+
 
   </div>
 
